@@ -1,6 +1,17 @@
-/* Acá va tu código */
-/* alert ('instrucciones de encriptado (cifrar y decifrar)') */
-function mostrar(){
-    let = third
-    document.getElementById(third).value;
+const myFunction() {
+    let name = document.getElementById("name").value;
+    document.getElementById("bienvenida").innerHTML = "Bienvenida, " + name;
+    
+    
+    document.getElementById("interfaz1").style.display="none"
+    document.getElementById("interfaz2").style.display="block"
+    
+    }
+      
+    function functionA() {
+    document.getElementById("interfaz2").style.display="none";
+    document.getElementById("responde1").style.display="block";
+      }
+      
+
     
