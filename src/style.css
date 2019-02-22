@@ -1,6 +1,31 @@
 /* Acá va tu código */
 body {
     /*background-color: #f7ad0e;*/
-    background-image: url('https://i-h2.pinimg.com/564x/9a/fc/2c/9afc2ca4e814ba497fcaf1d67e3ce9a4.jpg?b=t');
+    background-image: url('https://images7.alphacoders.com/457/thumb-1920-457011.jpg');
 
   }
+  #root{
+    color: blanchedalmond
+  }
+  #one{
+    margin: 5px auto;
+    width: 40%;
+  }
+  #third{
+    margin:5px auto;
+    width: 80%;
+    
+  }
+  /*encabezado y slogan*/
+  #root{
+    margin: 50px auto;
+    width: 50%;
+
+  }
+  #slogan{
+    margin: 1%;
+    width: 40%;
+
+  }
+  /*bonones cifrar u decifrar*/
+  
