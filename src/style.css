@@ -1,11 +1,33 @@
 /* Acá va tu código */
 body {
     /*background-color: #f7ad0e;*/
-    background-image: url('https://images7.alphacoders.com/457/thumb-1920-457011.jpg');
+    background-image: url('https://images6.alphacoders.com/352/thumb-1920-352115.jpg');
 
   }
   #root{
-    color: blanchedalmond
+
+    right:center;
+    color: blanchedalmond;
+    border: solid;
+    padding-top: 1%;
+    padding-right: 10%;
+    padding-bottom: 1%;
+    padding-left: 01%;
+    margin: 100px auto;
+    width: 50%;
+  }
+  #titulo{
+    right: center;
+    margin: 10px;
+    padding-left: 25%;
+    size: 1cm
+  }
+  #slogan{
+    right: center;
+    margin: 10px;
+    padding-left: 44%;
+    size: 1cm
+  }
   }
   #one{
     margin: 5px auto;
@@ -13,14 +35,7 @@ body {
   }
   #third{
     margin:5px auto;
-    width: 80%;
-    
-  }
-  /*encabezado y slogan*/
-  #root{
-    margin: 50px auto;
-    width: 50%;
-
+    width: 80%;  
   }
   #slogan{
     margin: 1%;
