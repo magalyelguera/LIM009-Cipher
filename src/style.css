@@ -4,14 +4,15 @@ body {
     background-image: url('https://images6.alphacoders.com/352/thumb-1920-352115.jpg');
 
   }
+  
   #root{
 
     right:center;
     color: blanchedalmond;
-    border: solid;
-    padding-top: 1%;
+    border: 5px solid ;
+    padding-top: 0%;
     padding-right: 10%;
-    padding-bottom: 1%;
+    padding-bottom: 0%;
     padding-left: 01%;
     margin: 100px auto;
     width: 50%;
@@ -28,6 +29,39 @@ body {
     padding-left: 44%;
     size: 1cm
   }
+  .message{
+    right: center;
+    padding-left: 25%;
+    size: 1cm;
+    color: blanchedalmond;
+  }
+  .message1{
+    right: center;
+    margin: 10px;
+    padding-left: 25%;
+    size: 1cm
+    }
+  .text2{
+    right: center;
+    margin: 10px;
+    padding-left: 25%;
+    size: 1cm
+
+  }
+  #box{
+    right:center;
+    color: blanchedalmond;
+    border-radius: 20px;
+    padding-top: 5%;
+    padding-right: 0%;
+    padding-bottom: 5%;
+    padding-left: 0%;
+    margin: 100px auto;
+    width: 50%;
+    background-color: rgba(3,18,32,0.774);
+  }
+  .box1{
+    right: center;
   }
   #one{
     margin: 5px auto;
@@ -36,11 +70,6 @@ body {
   #third{
     margin:5px auto;
     width: 80%;  
-  }
-  #slogan{
-    margin: 1%;
-    width: 40%;
-
   }
   /*bonones cifrar u decifrar*/
   

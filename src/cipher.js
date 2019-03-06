@@ -2,12 +2,13 @@ window.cipher = {
   encode: (offset,string) => {
    let nuevomensaje='';
    for (let i = 0; i < string.length; i++) {
+let letra=string[i].charCodeAt();
      if (string[i].charCodeAt()>=65 && string[i].charCodeAt()<=90){
-       let numberAcci=((string[i].charCodeAt())-65+offset)%26+65;
-       let lettercipher = String.fromCharCode(numberAcci);
+      let numberAcci=((letra)-65+offset)%26+65;
+      let lettercipher = String.fromCharCode(numberAcci);
        nuevomensaje=nuevomensaje+lettercipher;
      } else {
-       nuevomensaje=nuevomensaje+string[i];
+       nuevomensaje+=nuevomensaje+string[i];
      }
     }
 return nuevomensaje;
@@ -23,7 +24,7 @@ return nuevomensaje;
 
    } else {
 
-     nuevomensaje2=nuevomensaje2+string[i];
+     nuevomensaje2+=nuevomensaje2+string[i];
    }
   }
       return nuevomensaje2;
