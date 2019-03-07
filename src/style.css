@@ -27,49 +27,86 @@ body {
     right: center;
     margin: 10px;
     padding-left: 44%;
-    size: 1cm
+    size: 1cm;
   }
   .message{
     right: center;
-    padding-left: 25%;
-    size: 1cm;
+    margin: 8px;
+    padding-left: 41%;
     color: blanchedalmond;
+    padding-left: 10%;
+    padding-right: 10%;
+    font-size: 0.8cm;
+    text-align: center;
+    
   }
-  .message1{
-    right: center;
-    margin: 10px;
-    padding-left: 25%;
-    size: 1cm
-    }
-  .text2{
-    right: center;
-    margin: 10px;
-    padding-left: 25%;
-    size: 1cm
-
-  }
+  /*inicio de sesion*/
   #box{
     right:center;
     color: blanchedalmond;
     border-radius: 20px;
-    padding-top: 5%;
-    padding-right: 0%;
+    padding-top: 3%;
+    padding-right: 1%;
     padding-bottom: 5%;
-    padding-left: 0%;
+    padding-left: 25%;
     margin: 100px auto;
     width: 50%;
     background-color: rgba(3,18,32,0.774);
   }
-  .box1{
+ 
+  
+  #text2{
     right: center;
-  }
+    margin: 1px;
+    padding-left: 0%;
+    padding-right: 0%;
+    font-size: 0.8cm;
+   }
+
   #one{
     margin: 5px auto;
     width: 40%;
   }
-  #third{
-    margin:5px auto;
-    width: 80%;  
+  /*log in*/
+  #boton{
+    border-radius: 10px;
+    padding-right: 1%;
+    padding-left: 1%;
+    font-size: 0.5cm;
+    background-color:rgba(8, 99, 90, 0.767);
+    text-align: center;
+  }
+  .log{
+    color: blanchedalmond; 
   }
   /*bonones cifrar u decifrar*/
-  
+  #titulo2{
+    text-align: center;
+    margin: 10px;
+    padding-left: 10%;
+    size: 1cm;
+  }
+  .code1{
+    right:center;
+    color: blanchedalmond;
+    border-radius: 20px;
+    padding-top: 3%;
+    padding-right: 1%;
+    padding-bottom: 5%;
+    padding-left: 25%;
+    margin: 100px auto;
+    width: 50%;
+    background-color: rgba(3,18,32,0.774);
+  }
+  .code2{
+    right:center;
+    color: blanchedalmond;
+    border-radius: 20px;
+    padding-top: 3%;
+    padding-right: 1%;
+    padding-bottom: 5%;
+    padding-left: 25%;
+    margin: 100px auto;
+    width: 50%;
+    background-color: rgba(3,18,32,0.774);
+  }

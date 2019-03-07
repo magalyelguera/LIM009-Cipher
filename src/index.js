@@ -1,5 +1,6 @@
 
 
+/*const botonInicio = document.getElementById('boton');*/
 const texto1 = document.getElementById('one');
 const desplazamiento1 = document.getElementById('off');
 const botonCifrar = document.getElementById('cifrar');
@@ -9,6 +10,11 @@ const texto2 = document.getElementById('two');
 const desplazamiento2 = document.getElementById('on');
 const botonDescifrar = document.getElementById('descifrar');
 const resultadoDescifrado = document.getElementById('resultado2');
+
+/*const logIng =()=>{
+    let boton1=botonInicio.value;
+}
+botonInicio.addEventListener('click',logIn)*/
 
 const capturarCifrado =()=>{ 
     let mensajeescrito = texto1.value;
