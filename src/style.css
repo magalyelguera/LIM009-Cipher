@@ -21,7 +21,7 @@ body {
     right: center;
     margin: 10px;
     padding-left: 25%;
-    size: 1cm
+    size: 1cm;
   }
   #slogan{
     right: center;
@@ -93,10 +93,10 @@ body {
     padding-top: 3%;
     padding-right: 1%;
     padding-bottom: 5%;
-    padding-left: 25%;
+    padding-left: 5%;
     margin: 100px auto;
     width: 50%;
-    background-color: rgba(3,18,32,0.774);
+    background-color: rgba(22, 73, 69, 0.644);
   }
   .code2{
     right:center;
@@ -105,8 +105,45 @@ body {
     padding-top: 3%;
     padding-right: 1%;
     padding-bottom: 5%;
-    padding-left: 25%;
+    padding-left: 5%;
     margin: 100px auto;
     width: 50%;
-    background-color: rgba(3,18,32,0.774);
+    background-color: rgba(158, 228, 213, 0.24);
   }
+  #box2{
+    background-color: rgba(3,18,32,0.774);
+    padding-right: 1%;
+    padding-bottom: 5%;
+    color: blanchedalmond
+  }
+ #bienvenida{
+  right: center;
+    font-family: 'Gill Sans', 'Gill Sans MT';
+    font-size: 2cm;
+    padding-left: 20%;
+    padding-right: 0%;
+ }
+ #cifrar{
+  padding-left: 30%;
+    padding-right: 30%;
+ }
+ #resultado1{
+  padding-left: 30%;
+    padding-right: 13%;
+ }
+ #descifrar{
+  padding-left: 30%;
+    padding-right: 25%;
+ }
+ #resultado2{
+  padding-left: 30%;
+    padding-right: 13%;
+ }
+ #fin{
+  text-align: center;
+  background-color: rgba(21, 207, 231, 0.603);
+  padding-left: 15%;
+  padding-right: 20%;
+  font-family: 'Times New Roman';
+  font-size: 80px
+ }
