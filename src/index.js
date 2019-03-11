@@ -5,7 +5,7 @@ function ir(){
     document.getElementById("todo").style.display="none";
     document.getElementById("box2").style.display="block";
 }
-const texto1 = document.getElementById('one');
+const texto1 = document.getElementById('one-mensaje');
 const desplazamiento1 = document.getElementById('off');
 const botonCifrar = document.getElementById('cifrar');
 const resultadoCifrado = document.getElementById('resultado1');
@@ -18,10 +18,10 @@ const resultadoDescifrado = document.getElementById('resultado2');
 
 
 const capturarCifrado =()=>{ 
-    let mensajeescrito = texto1.value;
+    let mensajeEscrito = texto1.value;
     let numero = parseInt(desplazamiento1.value);
-    let nuevomensaje = cipher.encode(numero,mensajeescrito);
-    return resultadoCifrado.value = nuevomensaje;
+    let nuevoMensaje = cipher.encode(numero,mensajeEscrito);
+    return resultadoCifrado.value = nuevoMensaje;
 
 }
 
