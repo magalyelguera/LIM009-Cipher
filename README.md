@@ -23,9 +23,14 @@ Por ejemplo, si usamos un desplazamiento (_offset_) de 3 posiciones:
 - Alfabeto cifrado: D E F G H I J K L M N O P Q R S T U V W X Y Z A B 
 
 ###PROCESO Y DECISIONES DE DISEÑO:
-Se inició con la planificación y prototipado
-
- 
+Se inicio con la planificación y construcción de un prototipo para identificar la secuencia del diseño.
+Donde se determinó el inicio con una Bienvenida así mismo instrucciones de uso para el usuario antes de registrarse.
+En la segunda pantalla se diseñó dos cuadros separados donde se diferencian con los botones cifrado y descifrado.
+la imagen de fondo y colores fueron elegidas en realcíon al sector empresarial ya que el producto esta enfocado a usuarios que laboran en organizaciones administrativas y comerciales.
 #### los usuarios y su relación con el producto
+La relación de los usuarios y el producto se centra en la confidencialidad, a través de la codificacion  y decodificacion de sus mensajes entre un emisor y receptor.
 ##cómo el producto soluciona los problemas/necesidades de los usuarios
+La necesidad constante de comunicación confidencial dentro de una organización nos ha llevado a la búsqueda de un producto que solucione y brinde seguridad en sus mensajes.
+Para ello el cliente inicia sesión con un nombre de usuario y contraseña que unicamente es propietario, su mensaje es encriptado en el desplazamiento que el mismo ha elegido, de esta manera puede enviar el mensaje encriptado y numero de desplaxzamiento al individo receptor y este asu vez ingresa de la misma manera al aplicativo, para colocar su mensaje al recuadro de descifrado con el numero de desplzamiento indicado, de esta manera desencriptar y leer el mensaje confidencial.
 ## Resumen del proyecto
+DISCRETA ha sido diseñado y enfocado a usuarios que laboran en empresas y estos tienen la necesidad de comunicar sus mensajes de manera confidencial. El cifrado y descifrado es una solución óptima y eficaz para esta necesidad.
