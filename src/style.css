@@ -114,7 +114,7 @@ body {
     background-color: rgba(3,18,32,0.774);
     padding-right: 1%;
     padding-bottom: 5%;
-    color: blanchedalmond
+    color: blanchedalmond;
   }
  #bienvenida{
   right: center;
@@ -122,6 +122,17 @@ body {
     font-size: 2cm;
     padding-left: 20%;
     padding-right: 0%;
+ }
+ .cifrado1{
+  right:center;
+  color: blanchedalmond;
+  border: 5px solid ;
+  padding-top: 0%;
+  padding-right: 10%;
+  padding-bottom: 0%;
+  padding-left: 01%;
+  margin: 100px auto;
+  width: 50%;
  }
  #cifrar{
   padding-left: 30%;
