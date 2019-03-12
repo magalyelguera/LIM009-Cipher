@@ -6,81 +6,72 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-   <div id="todo">
-<!--primera pantalla título Bienvenida  -->
-  <div id="root">
-  <h1 id="titulo">BIENVENIDO A DISCRETA </h1>
-    
-<!--slogan-->
-  <p id="slogan"><em> <strong>"Comunicaciones Seguras"</strong> </em></p>
-  </div>
-  <p id="text1" class="message"> Un medio de comunicación confidencial 
-        para empresas y organizaciones comerciales. 
-  <br>Solo debes iniciar sesión para poder acceder a la plataforma de cifrado</p>
-      
-<!--log in usuario-->
-<div id="box" class="box1">
-<p id="text2" class="message1"> INICIAR SESION </p>
-<div id="one"> </div>
-<div id='first'>
-<P>Usuario</P>
-<input type='text'
-placeholder='ingresar usuario' id='name'>
-</div>
-<br>
-<!--log in contraseña-->
-<div id='second'>
-<P>Contraseña</P><input type='password'name='contraseña' placeholder='ingresar contraseña' 
- id='password'>
-</div>
-<br>
-<!--boton de iniciar-->
-<div id="third">
-<button id="boton"class='log' onclick="ir()">Enviar</button> 
-</div>
-</div> 
-</div> 
-
-
-<!--cuadro de cifrado-->
-<div id="box2" class="box2" >
-  <p id="bienvenida"></p> 
-  
-<!--titulo-->
-
-<div id="root">
-    <h1 id='titulo2'>CIFRA Y DESCIFRA TU MENSAJE</h1>
-    </div>
-    <br>
-    
-    <br>
-<!--cifrado-->
-
-    <div id='code1'class='code1'>
-        <input type="text" id="one-mensaje" placeholder="ingrese mensaje"> 
-        <input type="number" id="off" placeholder="ingrese numero de desplazamiento"> <br> <br>
-        <button id="cifrar">CIFRAR</button> 
-        <br> <br>
-        <textarea  id="resultado1"></textarea>
+    <div id="todo" >
+      <!--primera pantalla título Bienvenida  -->
+      <div id="root" >
+      <h1 id="titulo" >BIENVENIDO A DISCRETA </h1>
+      <!--slogan-->
+      <p id="slogan" ><em> <strong>"Comunicaciones Seguras"</strong> </em></p>
+      </div>
+      <p id="text1" class= "message" > Un medio de comunicación confidencial para empresas y organizaciones comerciales.<br>Solo debes iniciar sesión para poder acceder a la plataforma de cifrado</p>
+      <!--log in usuario-->
+      <div id="box" class="box1" >
+      <p id="text2" class="message1" > INICIAR SESION </p>
+      <div id="one"></div>
+      <div id="first">
+        <p>Usuario</p>
+        <input type="text" placeholder="ingresar-usuario" id="name" />
+      </div>
+      <br>
+    <!--log in contraseña-->
+      <div id="second" >
+        <p>Contraseña</p>
+        <input type="password" name="contraseña" placeholder="ingresar-contraseña"  id="password" />
+      </div>
+      <br>
+    <!--boton de iniciar-->
+     <div id="third" >
+      <button id="boton" class="log">Enviar</button> 
+     </div>
+      </div> 
+    </div> 
+    <!--cuadro de cifrado-->
+    <div id="box2" class="box2" style="display:none">
+      <p id="bienvenida"></p> 
+      <!--titulo-->
+      <div class="cifrado1" >
+        <p id="titulo2" >CIFRA Y DESCIFRA TU MENSAJE</p>
+      </div>
+      <br>
+      <br>
+      <!--cifrado-->
+      <div id="code1" class="code1">
+        <p>Ingresa tu mensaje con letras MAYÚSCULAS, elige el numero de desplazamiento y pulsa CIFRAR</p>
+        <input type="text" id="one-mensaje" placeholder="ingrese mensaje" /> 
+        <input type="number" id="off" placeholder="ingrese numero de desplazamiento"/> 
+        <br> 
         <br>
-        </div>
-<!--descifrado-->
-
-        <div id='code2'class='code2'>
-            <input type="text" id="two" placeholder="ingrese mensaje" >
-            <input type="number" id="on" placeholder="ingrese numero de desplazamiento"> <br> <br>
-            <button id="descifrar">DESCIFRAR</button>
-            <br> <br>
-            <textarea  id="resultado2"></textarea>
-            </div>"
-            <div id="fin">
-              <p>GRACIAS POR COFIAR EN DISCRETA</p>
-  
-              </div>
-</div>
-
+        <button id="cifrar">CIFRAR</button> 
+        <br>
+        <br>
+        <textarea id="resultado1"></textarea>
+        <br>
+      </div>
+      <!--descifrado-->
+      <div id="code2" class="code2" >
+       <p>Ingresa tu mensaje cifrado con letras MAYÚSCULAS, coloca el numero de desplazamiento y pulsa DESCIFRAR</p>
+       <input type="text" id="two" placeholder="ingrese mensaje" >
+       <input type="number" id="on" placeholder="ingrese numero de desplazamiento"><br><br>
+       <button id="descifrar" >DESCIFRAR</button>
+       <br>
+       <br>
+       <textarea  id="resultado2" ></textarea>
+      </div>
+      <div id="fin">
+       <p>GRACIAS POR COFIAR EN DISCRETA</p>
+      </div>
+    </div>  
     <script src="cipher.js"></script>
     <script src="index.js"></script>
-      
   </body>
 </html>
