@@ -6,8 +6,6 @@ body {
   }
   
   #root{
-
-    right:center;
     color: blanchedalmond;
     border: 5px solid ;
     padding-top: 0%;
@@ -18,31 +16,27 @@ body {
     width: 50%;
   }
   #titulo{
-    right: center;
     margin: 10px;
     padding-left: 25%;
-    size: 1cm;
+    font-size:5;
   }
   #slogan{
-    right: center;
     margin: 10px;
     padding-left: 44%;
-    size: 1cm;
+    font-size:5;
   }
   .message{
-    right: center;
     margin: 8px;
     padding-left: 41%;
     color: blanchedalmond;
     padding-left: 10%;
     padding-right: 10%;
-    font-size: 0.8cm;
     text-align: center;
+    font-size: 20;
     
   }
   /*inicio de sesion*/
   #box{
-    right:center;
     color: blanchedalmond;
     border-radius: 20px;
     padding-top: 3%;
@@ -56,7 +50,6 @@ body {
  
   
   #text2{
-    right: center;
     margin: 1px;
     padding-left: 0%;
     padding-right: 0%;
@@ -87,7 +80,6 @@ body {
     size: 1cm;
   }
   .code1{
-    right:center;
     color: blanchedalmond;
     border-radius: 20px;
     padding-top: 3%;
@@ -99,7 +91,6 @@ body {
     background-color: rgba(22, 73, 69, 0.644);
   }
   .code2{
-    right:center;
     color: blanchedalmond;
     border-radius: 20px;
     padding-top: 3%;
@@ -117,14 +108,12 @@ body {
     color: blanchedalmond;
   }
  #bienvenida{
-  right: center;
     font-family: 'Gill Sans', 'Gill Sans MT';
     font-size: 2cm;
     padding-left: 20%;
     padding-right: 0%;
  }
  .cifrado1{
-  right:center;
   color: blanchedalmond;
   border: 5px solid ;
   padding-top: 0%;

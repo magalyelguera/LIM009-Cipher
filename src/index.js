@@ -28,10 +28,10 @@ const capturarCifrado =()=>{
 botonCifrar.addEventListener('click',capturarCifrado)
 
 const capturarDescifrado =()=>{
-    let mensajeescrito2 =texto2.value;
+    let mensajeEscrito2 =texto2.value;
     let numero2 =parseInt(desplazamiento2.value);
-    let nuevomensaje2 =cipher.decode(numero2,mensajeescrito2);
-    return resultadoDescifrado.value = nuevomensaje2;
+    let nuevoMensaje2 =cipher.decode(numero2,mensajeescrito2);
+    return resultadoDescifrado.value = nuevoMensaje2;
 
 }
  botonDescifrar.addEventListener('click',capturarDescifrado)

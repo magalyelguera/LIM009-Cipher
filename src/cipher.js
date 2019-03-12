@@ -1,31 +1,31 @@
 window.cipher = {
   encode: (offset, string) => {
-   let nuevomensaje='';
+   let nuevoMensaje='';
    for (let i = 0; i <string.length; i++) {
      if (string[i].charCodeAt()>=65 && string[i].charCodeAt()<=90){
       let numberAcci=((string[i].charCodeAt())-65+offset)%26+65;
       let lettercipher = String.fromCharCode(numberAcci);
-       nuevomensaje=nuevomensaje+lettercipher;
+       nuevoMensaje=nuevoMensaje+lettercipher;
      } else {
-       nuevomensaje+=nuevomensaje+string[i];
+       nuevoMensaje+=nuevoMensaje+string[i];
      }
     }
-return nuevomensaje;
+return nuevoMensaje;
  },
 
   decode: (offset,string) => {
-    let nuevomensaje2='';
+    let nuevoMensaje2='';
     for (let i =0; i<string.length; i++){
       if (string[i].charCodeAt()>=65 && string[i].charCodeAt()<=90){
         let numberAcci=((string[i].charCodeAt())-90-offset)%26+90;
         let lettercipher =String.fromCharCode(numberAcci);
-        nuevomensaje2=nuevomensaje2+lettercipher;
+        nuevoMensaje2=nuevoMensaje2+lettercipher;
 
    } else {
 
-     nuevomensaje2+=nuevomensaje2+string[i];
+     nuevoMensaje2+=nuevoMensaje2+string[i];
    }
   }
-      return nuevomensaje2;
+      return nuevoMensaje2;
 }
     };
